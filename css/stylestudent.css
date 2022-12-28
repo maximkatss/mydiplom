@@ -1,0 +1,567 @@
+/*
+	1740
+
+	font-family: "AvantGardeCTT", "Regular";
+	font-family: "Anurati", "Regular";
+
+	lg: 1200px
+	md: 992px
+	sm: 767px
+	xs: 576px
+*/
+
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: "AvantGardeCTT", "Regular";
+
+}
+
+.main-header {
+	width: 100%;
+	height: 145px;
+	float: left;
+	background-color: #414141;
+	color: white;
+}
+
+/*.foot-header {
+	width: 100%;
+	height: 765px;
+	float: left;
+	background-color: #414141;
+	color: white;
+	margin-top: 180px;
+}
+*/
+.container {
+	width: 1740px;
+	height: 100%;
+	background-color: #414141;
+	margin: 0 auto;
+}
+
+/*.main-no-header {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}*/
+
+
+
+/*				Верхний слой HEADER				*/
+
+
+
+.header {
+	width: 1740px;
+	height: 54px;
+	float: left;
+	border-bottom: 1px white solid;
+	background-color: #414141;
+}
+
+.text-header {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.text-header p {
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.tel-header {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.tel-header .tel {
+	float: left;
+	margin-top: 15px;
+	margin-left: 250px;
+	font-size: 20px;
+}
+
+.tel-header .markstudio {
+	float: left;
+	margin-top: 15px;
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+.tel-header .insta {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+
+/*				Верхний слой ЗАКОНЧИЛСЯ HEADER				*/
+
+
+
+/*					Верхний слой МЕНЮ 						*/
+
+
+
+.header-menu {
+	width: 1740px;
+	height: 62px;
+	background-color: #414141;
+	float: left;
+}
+
+.logo  {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.logo a {
+	float: left;
+	font-size: 22px;
+	width: 160px;
+	height: 26px;
+	margin-top: 18px;
+	color: white;
+	font-family: "Anurati", "Regular";
+}
+
+.menu  {
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-left: 1px white solid;
+}
+
+.menu .q  {
+	width: 14%;
+	height: 100%;
+	float: left;
+}
+
+.menu .w  {
+	width: 20%;
+	height: 100%;
+}
+
+.menu .e  {
+	width: 30%;
+	height: 100%;
+}
+
+.menu .r  {
+	width: 23%;
+	height: 100%;
+}
+
+.menu .t  {
+	width: 13%;
+	height: 100%;
+}
+
+.q,.w,.e,.r,.t {
+	float: left;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+}
+
+.q a,.w a,.e a,.r a,.t a {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+}
+
+.r a {
+	background-color: #888888;
+}
+
+.w a:hover,.e a:hover,.q a:hover,.t a:hover {
+	background-color: #888888;
+	transition: 0.8s linear;
+}
+
+
+/*					Верхний слой МЕНЮ ЗАКОНЧИЛСЯ			*/
+
+
+
+/*					ТЕКСТ МЕНЮ 									*/
+/*					СТАНЬ ВОСТРЕБОВАННЫМ 						*/
+
+.text-main {
+	width: 1740px;
+	height: 155px;
+	float: left;
+	margin-top: 160px;
+	border-bottom: 1px black solid;
+}
+
+.text-main-tt {
+	width: 100%;
+	height: 155px;
+	float: left;
+	margin-left: 25px;
+}
+
+.text-main-tt .pp {
+	float: left;
+	width: 100%;
+	font-size: 36px;
+	font-weight: 700;
+	color: black;
+}
+
+.text-main-tt .pt {
+	float: left;
+	width: 100%;
+	font-size: 22px;
+	color: black;
+	margin-top: 40px;
+}
+
+
+/*					КОНЕЦ ТЕКСТА МЕНЮ 						*/
+
+
+.main-prepod {
+	width: 1740px;
+	height: 1100px;
+	float: left;
+	margin-top: 40px;
+}
+
+.main-prepod-min {
+	width: 1680px;
+	height: 1100px;
+	float: left;
+	margin-left: 30px;
+}
+
+
+
+/*		Карточка преподавателя		*/
+
+.prepod {
+	width: 1680px;
+	height: 500px;
+	float: left;
+}
+
+.prepod-two {
+	margin-top: 100px;
+}
+
+.prepod-image {
+	width: 490px;
+	height: 500px;
+	float: left;
+	background-color: #414141;
+}
+
+.prepod-info {
+	width: 1130px;
+	height: 500px;
+	float: left;
+	margin-left: 60px;
+	position: relative;
+	color: black;
+}
+
+.prepod-info-top-text {
+	width: 1130px;
+	height: 75px;
+	float: left;
+	margin-top: 90px;
+}
+
+.prepod-info-top-text p {
+	font-size: 22px;
+}
+
+.prepod-info-top-text .prepod-n-name {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.prepod-info-top-text .prepod-te-name {
+	margin-top: 6px; 
+}
+
+.prepod-info-mid-text {
+	width: 1130px;
+	height: 170px;
+	float: left;
+	margin-top: 70px;
+}
+
+.prepod-info-mid-text p {
+	font-size: 20px;
+}
+
+
+.sm-work {
+	width: 1130px;
+	height: 44px;
+	float: left;
+	position: absolute;
+	bottom: 0
+}
+
+.sm-work a {
+	width: 260px;
+	height: 44px;
+	float: left;
+
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+	padding-top: 8px;
+	font-size: 18px;
+	border: 2px black solid;
+	border-radius: 30px;
+}
+
+.sm-work a:hover {
+	color: white;
+	background-color: #414141;
+	border: 2px black solid;
+	transition: 0.8s linear;
+}
+
+.foot-pre {
+	width: 1740px;
+	height: 200px;
+	float: left;
+	display: block;
+}
+
+
+.predmetsa {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+
+
+
+/*// Cards Carousel
+// ----------------------------------------------*/
+
+.icon-cards {
+	float: left;
+	width: 700px;
+	height: 500px;
+  	margin: 0;
+ 	color: white;
+	perspective: 1500px;
+  	transform-origin: center;
+  	margin-top: 100px;
+  }
+
+
+	/*// This is the element that rotates with the animation*/
+
+.icon-cards__content {
+	width: 100%;
+	height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-35vw) rotateY(0);
+    animation: carousel 30s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+
+
+}
+
+/*	// Individual cards*/
+
+.icon-cards__item {
+	position: absolute;
+	top: 0;
+	left: 0;
+    right: 0;
+    bottom: 0;
+	width: 700px;
+	height: 500px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+	border-radius: 6px;
+    transform-origin: center; 
+}
+
+.icon-cards__item:nth-child(1) {
+	background-color: #414141;
+	transform: rotateY(0) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(2) {
+	background-color: #414141;
+	transform: rotateY(60deg) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(3) {
+	background-color: #414141;
+	transform: rotateY(120deg) translateZ(35vw);
+}
+    
+.icon-cards__item:nth-child(4) {
+	background-color: #414141;
+	transform: rotateY(180deg) translateZ(35vw);
+}
+    
+.icon-cards__item:nth-child(5) {
+	background-color: #414141;
+	transform: rotateY(240deg) translateZ(35vw);
+}
+    
+.icon-cards__item:nth-child(6) {
+	background-color: #414141;
+	transform: rotateY(300deg) translateZ(35vw);
+}
+
+/*// Carousel animation*/
+
+@keyframes carousel {
+	0%,  16%  { transform: translateZ(-35vw) rotateY(0); }
+	16%, 32%  { transform: translateZ(-35vw) rotateY(-60deg); }
+	32%, 48%  { transform: translateZ(-35vw) rotateY(-120deg); }
+	48%, 64% { transform: translateZ(-35vw) rotateY(-180deg); }
+	64%, 80%  { transform: translateZ(-35vw) rotateY(-240deg); }
+	80%, 100%  { transform: translateZ(-35vw) rotateY(-300deg); }
+}
+
+
+/*// Jelly checkbox animation*/
+
+@keyframes jelly {
+	from { transform: scale(1, 1); }
+  	30% { transform: scale(1.25, 0.75); }
+  	40% { transform: scale(0.75, 1.25); }
+  	50% { transform: scale(1.15, 0.85); }
+  	65% { transform: scale(0.95, 1.05); }
+  	75% { transform: scale(1.05, 0.95); }
+  	to { transform: scale(1, 1); }
+}
+
+@media (max-width: 1900px) {
+  .icon-cards {
+	width: 600px;
+	height: 400px;
+	perspective: 1500px;
+  }
+
+.icon-cards__item {
+	width: 600px;
+	height: 400px;
+}
+}
+
+@media (max-width: 1500px) {
+  .icon-cards {
+	width: 500px;
+	height: 300px;
+	perspective: 1500px;
+  }
+
+.icon-cards__item {
+	width: 500px;
+	height: 300px;
+}
+}
+
+
+.ob-forma {
+	width: 1420px;
+	height: 203px;
+	float: left;
+	margin-top: 120px;
+	margin-left: 320px;
+}
+
+.ob-forma-text {
+	width: 1420px;
+	height: 55px;
+	float: left;
+	font-size: 46px;
+	text-transform: uppercase;
+	color: black;
+	text-align: left;
+	font-weight: 700;
+}
+
+.ob-forma-sv {
+	width: 1740px;
+	height: 90px;
+	float: left;
+	margin-top: 70px;
+	color: black;
+}
+
+.ob-forma-sv form {
+	width: 1150px;
+	height: 90px;
+}
+
+.ob-forma-sv form p {
+	width: 280px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+}
+
+.ob-forma-sv form input {
+	width: 280px;
+	height: 30px;
+	font-size: 20px;
+	float: left;
+}
+
+.ob-forma-sv .gooo {
+	width: 180px;
+	height: 40px;
+	margin-left: 80px;
+	text-align: center;
+	display: block;
+	background-color: white;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 2px #85c516 solid;
+	border-radius: 30px;
+
+}
+
+.ob-forma-sv .gooo:hover {
+	background-color: #85c516;
+	border: 2px white solid;
+	transition: 0.8s linear;
+}
+
+
+.zapolne {
+	border: none;
+	border-bottom: 1px black solid;
+}
+
+.zapolne-aa {
+	margin-left: 20px;
+}
